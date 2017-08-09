@@ -12,6 +12,10 @@
 		B7E345171F3B516C00861744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E345151F3B516C00861744 /* Main.storyboard */; };
 		B7E345191F3B516C00861744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E345181F3B516C00861744 /* Assets.xcassets */; };
 		B7E3451C1F3B516C00861744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E3451A1F3B516C00861744 /* LaunchScreen.storyboard */; };
+		B7E345241F3B517A00861744 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E345231F3B517A00861744 /* CoreDataStack.swift */; };
+		B7E345271F3B519D00861744 /* FetchController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7E345251F3B519D00861744 /* FetchController.xcdatamodeld */; };
+		B7E345291F3B525B00861744 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B7E345281F3B525B00861744 /* data.json */; };
+		B7E3452B1F3B57A200861744 /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E3452A1F3B57A200861744 /* TeamCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		B7E345181F3B516C00861744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7E3451B1F3B516C00861744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7E3451D1F3B516C00861744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E345231F3B517A00861744 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		B7E345261F3B519D00861744 /* FetchController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FetchController.xcdatamodel; sourceTree = "<group>"; };
+		B7E345281F3B525B00861744 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		B7E3452A1F3B57A200861744 /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +62,16 @@
 		B7E345101F3B516C00861744 /* FetchController */ = {
 			isa = PBXGroup;
 			children = (
+				B7E345281F3B525B00861744 /* data.json */,
 				B7E345111F3B516C00861744 /* AppDelegate.swift */,
+				B7E3452A1F3B57A200861744 /* TeamCell.swift */,
 				B7E345131F3B516C00861744 /* ViewController.swift */,
 				B7E345151F3B516C00861744 /* Main.storyboard */,
 				B7E345181F3B516C00861744 /* Assets.xcassets */,
 				B7E3451A1F3B516C00861744 /* LaunchScreen.storyboard */,
 				B7E3451D1F3B516C00861744 /* Info.plist */,
+				B7E345231F3B517A00861744 /* CoreDataStack.swift */,
+				B7E345251F3B519D00861744 /* FetchController.xcdatamodeld */,
 			);
 			path = FetchController;
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 				B7E3451C1F3B516C00861744 /* LaunchScreen.storyboard in Resources */,
 				B7E345191F3B516C00861744 /* Assets.xcassets in Resources */,
 				B7E345171F3B516C00861744 /* Main.storyboard in Resources */,
+				B7E345291F3B525B00861744 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7E345241F3B517A00861744 /* CoreDataStack.swift in Sources */,
 				B7E345141F3B516C00861744 /* ViewController.swift in Sources */,
+				B7E3452B1F3B57A200861744 /* TeamCell.swift in Sources */,
+				B7E345271F3B519D00861744 /* FetchController.xcdatamodeld in Sources */,
 				B7E345121F3B516C00861744 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +335,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B7E345251F3B519D00861744 /* FetchController.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B7E345261F3B519D00861744 /* FetchController.xcdatamodel */,
+			);
+			currentVersion = B7E345261F3B519D00861744 /* FetchController.xcdatamodel */;
+			path = FetchController.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B7E345061F3B516C00861744 /* Project object */;
 }
