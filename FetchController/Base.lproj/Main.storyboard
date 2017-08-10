@@ -88,7 +88,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="World Cup!" id="O0W-jI-kaS">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="DDf-tD-Avj"/>
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" systemItem="add" id="DDf-tD-Avj">
+                            <connections>
+                                <action selector="addTeam:" destination="BYZ-38-t0r" id="gRb-xo-WY1"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="addButton" destination="DDf-tD-Avj" id="BOm-gs-2ZH"/>
